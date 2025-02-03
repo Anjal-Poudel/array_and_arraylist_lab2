@@ -48,4 +48,13 @@ class ArrayFunctions {
         System.out.println("Minimum difference: " + minDifference + " at index: " + index);
     }
 
+    // Convert an array to an ArrayList
+    private ArrayList<Integer> arrayToArrayList(int[] array) {
+        ArrayList<Integer> list = new ArrayList<>();
+        for (int num : array){
+            list.add(num); // Add each element to ArrayList
+        }     
+        return list;
+    }
+
 }
