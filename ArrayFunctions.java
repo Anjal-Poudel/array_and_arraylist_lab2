@@ -57,4 +57,13 @@ class ArrayFunctions {
         return list;
     }
 
+    // Convert an ArrayList to an array
+    private int[] arrayListToArray(ArrayList<Integer> list) {
+        int[] array = new int[list.size()];
+        for (int i = 0; i < list.size(); i++){
+            array[i] = list.get(i); // Copy elements to array
+        }     
+        return array;
+    }
+
 }
