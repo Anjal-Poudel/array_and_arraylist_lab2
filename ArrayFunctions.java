@@ -78,6 +78,4 @@ class ArrayFunctions {
         System.out.print("Converted back to array: ");
         display(newArray); // Display array
     }
-
-
 }
