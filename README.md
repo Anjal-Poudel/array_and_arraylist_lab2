@@ -1,6 +1,6 @@
 📌 Java Array Operations
-📝 About
 
+📝 
 This Java project provides various array operations, including:
 ✅ Separating odd and even numbers
 ✅ Finding the minimum difference between consecutive elements
